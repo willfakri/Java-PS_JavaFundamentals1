@@ -1,6 +1,20 @@
 package Printing;
 
 public class Printer {
-	public boolean isOn;
-	public String model;
+	protected boolean isOn;
+	
+	public Printer(boolean isOn)
+	{
+		this.isOn = isOn;
+	}
+	
+	public void TurnOn()
+	{
+		this.isOn = true;
+	}
+	
+	public void TurnOff()
+	{
+		this.isOn = false;
+	}
 }
