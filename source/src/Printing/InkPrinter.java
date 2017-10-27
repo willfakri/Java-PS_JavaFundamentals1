@@ -1,7 +1,7 @@
 package Printing;
 
 public class InkPrinter extends Printer {
-	
+
 	public InkPrinter(boolean isOn)
 	{
 		super(isOn);
@@ -28,5 +28,9 @@ public class InkPrinter extends Printer {
 	{
 		System.out.println(msg);
 	}
-
+	
+	public void print(int copies, String text)
+	{
+		super.print(copies, text);
+	}
 }

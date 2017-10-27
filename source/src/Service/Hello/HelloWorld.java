@@ -9,7 +9,7 @@ public class HelloWorld {
 		inkPrinter.taComo();
 		inkPrinter.taLigada();
 		inkPrinter.taDesligada();
-		
+		inkPrinter.print(2, "alo alo, dabliú Brasil");		
 	}
 //		Printer printer = new Printer();
 //		printer.isOn = true;
