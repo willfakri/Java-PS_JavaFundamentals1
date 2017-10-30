@@ -1,6 +1,6 @@
 package Printing;
 
-public class Printer {
+public class Printer implements IPrinter {
 	protected boolean isOn;
 	private PaperTray paperTray = new PaperTray();
 	
@@ -12,12 +12,13 @@ public class Printer {
 	public void TurnOn()
 	{
 		this.isOn = true;
-		System.out.println("Classe PAI, Printer");
+		System.out.println("TRUE, Classe Printer");
 	}
 	
 	public void TurnOff()
 	{
 		this.isOn = false;
+		System.out.println("FALSE, Classe Printer");
 	}
 	
 	public void loadTray(int papers)
