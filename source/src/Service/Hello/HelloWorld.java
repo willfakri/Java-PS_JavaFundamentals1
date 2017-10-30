@@ -1,15 +1,21 @@
 package Service.Hello;
 
 import Printing.InkPrinter;
+import Printing.Printer;
 
 public class HelloWorld {
 	public static void main(String[] args) 
 	{
-		InkPrinter inkPrinter = new InkPrinter(false);
-		inkPrinter.taComo();
-		inkPrinter.taLigada();
-		inkPrinter.taDesligada();
-		inkPrinter.print(2, "alo alo, dabliú Brasil");		
+//		Printer printer = new InkPrinter(true);
+//		printer.TurnOn();
+		
+		Printer printer2 = new Printer(true);
+		printer2.TurnOn();
+//		InkPrinter inkPrinter = new InkPrinter(false);
+//		inkPrinter.taComo();
+//		inkPrinter.taLigada();
+//		inkPrinter.taDesligada();
+//		inkPrinter.print(2, "alo alo, dabliú Brasil");		
 	}
 //		Printer printer = new Printer();
 //		printer.isOn = true;

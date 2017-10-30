@@ -18,6 +18,12 @@ public class InkPrinter extends Printer {
 		mensagem(isOn);
 	}
 	
+	@Override
+	public void TurnOn() {
+		super.TurnOn();
+		System.out.println("Classe FILHA, InkPrinter");
+	}
+	
 	public void taDesligada()
 	{
 		TurnOff();

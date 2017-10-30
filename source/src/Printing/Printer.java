@@ -12,6 +12,7 @@ public class Printer {
 	public void TurnOn()
 	{
 		this.isOn = true;
+		System.out.println("Classe PAI, Printer");
 	}
 	
 	public void TurnOff()
